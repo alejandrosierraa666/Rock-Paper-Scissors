@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main class="container" id="container">
+        <section class="subcontainer">
+            <section class="options" id="player1">
+                <h2>Player1</h2>
+                <article class="option__box"><img class="image" src="./assets/images/piedra.png" alt=""></article>
+                <article class="option__box"><img class="image" src="./assets/images/papel.png" alt=""></article>
+                <article class="option__box"><img class="image" src="./assets/images/tijera.png" alt=""></article>
+            </section>
+
+            <section class="options" id="player2">
+                <h2>Player2</h2>
+                <article class="option__box"><img id="piedra" class="image" src="./assets/images/piedra.png" alt=""></article>
+                <article class="option__box"><img id="papel" class="image" src="./assets/images/papel.png" alt=""></article>
+                <article class="option__box"><img id="tijera" class="image" src="./assets/images/tijera.png" alt=""></article>
+            </section>
+        </section>
+        <button id="play" class="button">Listo!</button>
+
+        
+    </main>
+    
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/js/script.js"></script>
+</body>
+</html>
